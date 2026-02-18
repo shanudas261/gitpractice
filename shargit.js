@@ -1,18 +1,6 @@
-// Write your code below:
-const heading = document.getElementById('main-heading')
+const fruits = document.getElementsByClassName('fruit')
+fruits[2].style.backgroundColor = 'yellow'
 
-heading.textContent = 'Fruit World'
-heading.style.color = 'orange'
-
-const header = document.getElementById('header')
-
-header.style.backgroundColor = 'green'
-header.style.borderBottom = '3px solid orange'
-
-const basketHeading = document.getElementById('basket-heading')
-
-basketHeading.style.color='green'
-
-const thanks = document.getElementById('thanks')
-
-thanks.innerHTML='<p>Please visit us again</p>'
+for (let i = 0; i < 4; i++){
+    fruits[i].style.fontWeight='bold'
+}
