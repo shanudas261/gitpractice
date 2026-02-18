@@ -1,6 +1,7 @@
-const fruits = document.getElementsByClassName('fruit')
-fruits[2].style.backgroundColor = 'yellow'
+// Write your code below:
+const list = document.getElementsByTagName('li')
+list[4].style.color = 'red'
 
-for (let i = 0; i < 4; i++){
-    fruits[i].style.fontWeight='bold'
+for (let i= 0; i < 5; i++) {
+    list[i].style.fontStyle='italic'
 }
